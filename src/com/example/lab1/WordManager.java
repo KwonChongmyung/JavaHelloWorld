@@ -2,6 +2,7 @@ package com.example.lab1;
 import java.util.Scanner;
 public class WordManager {
 	Scanner s = new Scanner(System.in);
+	WordCRUD wordCRUD;
 	/*
 	*** 영단어 마스터 ***
 	*******************
@@ -16,6 +17,10 @@ public class WordManager {
 	*******************
 	=> 원하는 메뉴는?
 	*/
+	
+	WordManager(){
+		wordCRUD = new WordCRUD(s);
+	}
 	public int selectMenu() {
 		System.out.print("*** 영단어 마스터 ***\n"+
 				"*******************\n" + 
@@ -36,13 +41,13 @@ public class WordManager {
 		while(true) {
 		int menu = selectMenu();
 		if(menu == 0) break;
-		if(menu == 4) {
-			//create
+		else if(menu == 4) {
+			wordCRUD.addWord();
 		}
 		else if(menu == 1) {
-			//list
+			wordCRUD.listAll();
 		}
-		System.out.println(menu);
+		
 		}
 	}
 }
