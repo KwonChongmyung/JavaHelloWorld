@@ -40,7 +40,7 @@ public class Word {
 		this.meaning = meaning;
 	}
 	
-	@Override
+	
 	public String toString() {
 		String slevel = ""; 
 		for(int i = 0; i < level; i++)
