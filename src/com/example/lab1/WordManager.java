@@ -2,7 +2,7 @@ package com.example.lab1;
 import java.util.Scanner;
 public class WordManager {
 	Scanner s = new Scanner(System.in);
-	WordCRUD wordCRUD;	
+	WordCRUD wordCRUD;
 	
 	/*
 	*** 영단어 마스터 ***
