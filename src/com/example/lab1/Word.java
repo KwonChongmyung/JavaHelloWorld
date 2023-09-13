@@ -42,7 +42,7 @@ public class Word {
 	
 	@Override
 	public String toString() {
-		String slevel = "";
+		String slevel = ""; 
 		for(int i = 0; i < level; i++)
 		{
 			slevel += "*";
