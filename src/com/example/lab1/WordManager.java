@@ -18,7 +18,7 @@ public class WordManager {
 	*******************
 	=> 원하는 메뉴는?
 	*/
-	
+
 	WordManager(){
 		wordCRUD = new WordCRUD(s);
 	}
