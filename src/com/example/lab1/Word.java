@@ -40,7 +40,6 @@ public class Word {
 		this.meaning = meaning;
 	}
 	
-
 	public String toString() {
 		String slevel = ""; 
 		for(int i = 0; i < level; i++)
