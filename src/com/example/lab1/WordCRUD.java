@@ -88,7 +88,7 @@ public class WordCRUD implements ICRUD{
 			if(ilevel != level) continue;
 			System.out.print((j+1)+ " ");
 			System.out.println(list.get(i).toString());
-	
+
 			j++;
 		}
 		System.out.println("-----------------------");
