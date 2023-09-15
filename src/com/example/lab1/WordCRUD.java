@@ -32,7 +32,7 @@ public class WordCRUD implements ICRUD{
 		list.add(one);
 		System.out.println("새 단어가 단어장에 추가되었습니다.");
 	}
-	
+	//update
 	public int update(Object obj) {
 		// TODO Auto-generated method stub
 		return 0;
