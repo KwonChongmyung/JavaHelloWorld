@@ -18,7 +18,7 @@ public class WordManager {
 	*******************
 	=> 원하는 메뉴는?
 	*/
-	
+
 	WordManager(){
 		wordCRUD = new WordCRUD(s);
 	}
@@ -35,7 +35,7 @@ public class WordManager {
 				"0. 나가기\n"+
 				"*******************\n"+
 				"=> 원하는 메뉴는? ");
-		
+	
 		return s.nextInt();
 	}
 	public void start() {

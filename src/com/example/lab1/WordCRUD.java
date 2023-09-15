@@ -1,4 +1,4 @@
-package com.example.lab1;
+package com.example.lab1; 
 import java.util.ArrayList;
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
